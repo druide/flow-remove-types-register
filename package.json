@@ -1,0 +1,25 @@
+{
+  "name": "@druide/flow-remove-types-register",
+  "version": "1.0.0",
+  "description": "flow-remove-types register to work with modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/druide/flow-remove-types-register.git"
+  },
+  "keywords": [
+    "Flow"
+  ],
+  "author": "druide <ingvuil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/druide/flow-remove-types-register/issues"
+  },
+  "homepage": "https://github.com/druide/flow-remove-types-register#readme",
+  "dependencies": {
+    "flow-remove-types": "^1.0.5"
+  }
+}
