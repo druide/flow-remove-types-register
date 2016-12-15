@@ -22,7 +22,6 @@ module.exports = function setOptions (newOptions) {
 // this require hook must come after it. Encourage those module authors to call
 // the prior loader in their require hooks.
 var jsLoader = require.extensions['.js']
-console.log(require)
 var exts = [ '.js', '.jsx', '.flow', '.es6' ]
 exts.forEach(function (ext) {
   var superLoader = require.extensions[ext] || jsLoader
