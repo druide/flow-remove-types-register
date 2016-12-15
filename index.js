@@ -13,7 +13,7 @@ var options
 var flowModules = []
 module.exports = function setOptions (newOptions) {
   options = newOptions
-  if (options.module) flowModules.push(options.module)
+  if (options && options.module) flowModules.push(options.module)
 }
 
 // Swizzle Module#_compile on each applicable module instance.
